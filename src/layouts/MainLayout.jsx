@@ -8,7 +8,14 @@ const MainLayout = () => {
       {/* Navbar */}
       <NavBar />
       {/* Outlet */}
-      <Outlet />
+      <div
+        style={{
+          minHeight: "calc(100vh - 614px)",
+          backgroundColor: "rgba(9, 8, 15, 0.05)",
+        }}
+      >
+        <Outlet />
+      </div>
       {/* Footer */}
       <Footer />
     </div>

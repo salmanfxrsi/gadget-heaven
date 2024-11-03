@@ -1,0 +1,157 @@
+[
+  {
+    "product_id": "P001",
+    "product_title": "Apple iPhone 15 Pro Max",
+    "product_image": "https://i.ibb.co.com/zHWfLm5/download.jpg",
+    "category": "phone",
+    "price": 1299.0,
+    "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
+    "specification": [
+      { "key": "Display", "value": "6.7-inch Super Retina XDR" },
+      { "key": "Chip", "value": "A17 Bionic chip" },
+      { "key": "Camera", "value": "48MP main, 12MP telephoto, 12MP ultrawide" },
+      { "key": "Storage", "value": "Up to 2TB" }
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P002",
+    "product_title": "MacBook Pro 16-inch",
+    "product_image": "https://i.ibb.co.com/Jr8nGHp/16inchmacbookproinbangladesh-i-Stock-BD.webp",
+    "category": "mac book",
+    "price": 2499.0,
+    "description": "The ultimate MacBook Pro with an M2 Pro chip for power users.",
+    "specification": [
+      { "key": "Display", "value": "16-inch Liquid Retina XDR" },
+      { "key": "Chip", "value": "M2 Pro" },
+      { "key": "Storage", "value": "512GB SSD" },
+      { "key": "RAM", "value": "16GB" }
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P003",
+    "product_title": "Samsung Galaxy Watch 6",
+    "product_image": "https://i.ibb.co.com/gZv3pP8/Galaxy-Watch6-Gold-5232.jpg",
+    "category": "smart watch",
+    "price": 399.0,
+    "description": "Stay connected and healthy with the Samsung Galaxy Watch 6.",
+    "specification": [
+      { "key": "Display", "value": "1.4-inch Super AMOLED" },
+      { "key": "Battery Life", "value": "Up to 40 hours" },
+      { "key": "Connectivity", "value": "LTE, Bluetooth, WiFi" }
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P004",
+    "product_title": "Dell XPS 13 Laptop",
+    "product_image": "https://i.ibb.co.com/8sfFcWd/Dell-XPS-13-Plus-1.webp",
+    "category": "laptop",
+    "price": 1099.0,
+    "description": "A powerful, ultra-portable laptop with a stunning display.",
+    "specification": [
+      { "key": "Display", "value": "13.4-inch FHD+" },
+      { "key": "Processor", "value": "Intel Core i7-1260P" },
+      { "key": "RAM", "value": "16GB" },
+      { "key": "Storage", "value": "512GB SSD" }
+    ],
+    "availability": false,
+    "rating": 4.5
+  },
+  {
+    "product_id": "P005",
+    "product_title": "Sony WH-1000XM5 Headphones",
+    "product_image": "https://i.ibb.co.com/GnNn7wy/6145c1d32e6ac8e63a46c912dc33c5bb.jpg",
+    "category": "accessories",
+    "price": 399.0,
+    "description": "Industry-leading noise-canceling headphones for immersive sound.",
+    "specification": [
+      { "key": "Battery Life", "value": "Up to 30 hours" },
+      { "key": "Noise Cancellation", "value": "Yes" },
+      { "key": "Connectivity", "value": "Bluetooth 5.2" }
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P006",
+    "product_title": "Apple Watch Series 9",
+    "product_image": "https://i.ibb.co.com/d07wXQz/Apple-Watch-Series-9-3-6716.jpg",
+    "category": "smart watch",
+    "price": 499.0,
+    "description": "The ultimate fitness and health tracking smartwatch.",
+    "specification": [
+      { "key": "Display", "value": "1.9-inch LTPO OLED" },
+      { "key": "Battery Life", "value": "Up to 18 hours" },
+      { "key": "Water Resistance", "value": "50 meters" }
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P007",
+    "product_title": "Google Pixel 8",
+    "product_image": "https://i.ibb.co.com/cTWx8cn/Pixel-8-Hazel-8910.jpg",
+    "category": "phone",
+    "price": 699.0,
+    "description": "Google's flagship phone with AI-powered features.",
+    "specification": [
+      { "key": "Display", "value": "6.2-inch OLED" },
+      { "key": "Chip", "value": "Google Tensor G3" },
+      { "key": "Camera", "value": "50MP main, 12MP ultrawide" },
+      { "key": "Battery", "value": "4,500 mAh" }
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P008",
+    "product_title": "JBL Flip 6 Portable Speaker",
+    "product_image": "https://i.ibb.co.com/FH0DCLV/1720555948lw-A9-I.jpg",
+    "category": "accessories",
+    "price": 129.0,
+    "description": "Portable waterproof speaker with powerful sound.",
+    "specification": [
+      { "key": "Battery Life", "value": "Up to 12 hours" },
+      { "key": "Waterproof", "value": "IP67" },
+      { "key": "Connectivity", "value": "Bluetooth" }
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "P009",
+    "product_title": "Lenovo Legion 5 Gaming Laptop",
+    "product_image": "https://i.ibb.co.com/0Fw1x3c/71fzx0p-GY5-L.jpg",
+    "category": "laptop",
+    "price": 1399.0,
+    "description": "A powerful gaming laptop with high-performance graphics.",
+    "specification": [
+      { "key": "Display", "value": "15.6-inch FHD 144Hz" },
+      { "key": "Processor", "value": "AMD Ryzen 7" },
+      { "key": "Graphics", "value": "NVIDIA GeForce RTX 3060" },
+      { "key": "RAM", "value": "16GB" }
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P010",
+    "product_title": "OnePlus Buds Pro 2",
+    "product_image": "https://i.ibb.co.com/vcQcrL2/oneplus-buds-pro-2-noise-canceling-earbuds-1.webp",
+    "category": "accessories",
+    "price": 149.0,
+    "description": "High-quality wireless earbuds with noise cancellation.",
+    "specification": [
+      { "key": "Battery Life", "value": "Up to 38 hours with case" },
+      { "key": "Noise Cancellation", "value": "Yes" },
+      { "key": "Water Resistance", "value": "IP55" }
+    ],
+    "availability": true,
+    "rating": 4.6
+  }
+]

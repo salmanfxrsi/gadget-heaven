@@ -11,8 +11,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-import PropTypes from 'prop-types';
-
+import PropTypes from "prop-types";
 
 const Chart = ({ allProducts }) => (
   <div className="container mx-auto pb-[100px] mt-12">
@@ -21,7 +20,7 @@ const Chart = ({ allProducts }) => (
       <ResponsiveContainer width="100%" height={400}>
         <BarChart data={allProducts}>
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="product_title" />
+          <XAxis dataKey="product_title" interval={0} className="text-[9px]"/>
           <YAxis />
           <Tooltip />
           <Legend />
@@ -41,7 +40,7 @@ const Chart = ({ allProducts }) => (
 );
 
 Chart.propTypes = {
-    allProducts: PropTypes.array,
-}
+  allProducts: PropTypes.array,
+};
 
 export default Chart;

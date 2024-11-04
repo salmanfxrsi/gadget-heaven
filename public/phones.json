@@ -3,7 +3,7 @@
     "product_id": "P001",
     "product_title": "Apple iPhone 15 Pro Max",
     "product_image": "https://i.ibb.co.com/zHWfLm5/download.jpg",
-    "category": "phone",
+    "category": "Phone",
     "price": 1299.0,
     "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
     "specification": [
@@ -19,7 +19,7 @@
     "product_id": "P002",
     "product_title": "MacBook Pro 16-inch",
     "product_image": "https://i.ibb.co.com/Jr8nGHp/16inchmacbookproinbangladesh-i-Stock-BD.webp",
-    "category": "mac book",
+    "category": "Mac Book",
     "price": 2499.0,
     "description": "The ultimate MacBook Pro with an M2 Pro chip for power users.",
     "specification": [
@@ -35,7 +35,7 @@
     "product_id": "P003",
     "product_title": "Samsung Galaxy Watch 6",
     "product_image": "https://i.ibb.co.com/gZv3pP8/Galaxy-Watch6-Gold-5232.jpg",
-    "category": "smart watch",
+    "category": "Smart Watch",
     "price": 399.0,
     "description": "Stay connected and healthy with the Samsung Galaxy Watch 6.",
     "specification": [
@@ -50,7 +50,7 @@
     "product_id": "P004",
     "product_title": "Dell XPS 13 Laptop",
     "product_image": "https://i.ibb.co.com/8sfFcWd/Dell-XPS-13-Plus-1.webp",
-    "category": "laptop",
+    "category": "Laptop",
     "price": 1099.0,
     "description": "A powerful, ultra-portable laptop with a stunning display.",
     "specification": [
@@ -66,7 +66,7 @@
     "product_id": "P005",
     "product_title": "Sony WH-1000XM5 Headphones",
     "product_image": "https://i.ibb.co.com/GnNn7wy/6145c1d32e6ac8e63a46c912dc33c5bb.jpg",
-    "category": "accessories",
+    "category": "Accessories",
     "price": 399.0,
     "description": "Industry-leading noise-canceling headphones for immersive sound.",
     "specification": [
@@ -81,7 +81,7 @@
     "product_id": "P006",
     "product_title": "Apple Watch Series 9",
     "product_image": "https://i.ibb.co.com/d07wXQz/Apple-Watch-Series-9-3-6716.jpg",
-    "category": "smart watch",
+    "category": "Smart Watch",
     "price": 499.0,
     "description": "The ultimate fitness and health tracking smartwatch.",
     "specification": [
@@ -96,7 +96,7 @@
     "product_id": "P007",
     "product_title": "Google Pixel 8",
     "product_image": "https://i.ibb.co.com/cTWx8cn/Pixel-8-Hazel-8910.jpg",
-    "category": "phone",
+    "category": "Phone",
     "price": 699.0,
     "description": "Google's flagship phone with AI-powered features.",
     "specification": [
@@ -112,7 +112,7 @@
     "product_id": "P008",
     "product_title": "JBL Flip 6 Portable Speaker",
     "product_image": "https://i.ibb.co.com/FH0DCLV/1720555948lw-A9-I.jpg",
-    "category": "accessories",
+    "category": "Accessories",
     "price": 129.0,
     "description": "Portable waterproof speaker with powerful sound.",
     "specification": [
@@ -127,7 +127,7 @@
     "product_id": "P009",
     "product_title": "Lenovo Legion 5 Gaming Laptop",
     "product_image": "https://i.ibb.co.com/0Fw1x3c/71fzx0p-GY5-L.jpg",
-    "category": "laptop",
+    "category": "Laptop",
     "price": 1399.0,
     "description": "A powerful gaming laptop with high-performance graphics.",
     "specification": [
@@ -143,7 +143,7 @@
     "product_id": "P010",
     "product_title": "OnePlus Buds Pro 2",
     "product_image": "https://i.ibb.co.com/vcQcrL2/oneplus-buds-pro-2-noise-canceling-earbuds-1.webp",
-    "category": "accessories",
+    "category": "Accessories",
     "price": 149.0,
     "description": "High-quality wireless earbuds with noise cancellation.",
     "specification": [

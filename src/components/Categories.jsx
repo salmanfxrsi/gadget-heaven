@@ -7,10 +7,10 @@ const Categories = ({ categories }) => {
       <NavLink
         to={"/"}
         className={({ isActive }) =>
-          `rounded-[2rem] bg-[#9538E2] py-[22px] text-lg ${
+          `rounded-[2rem] py-[22px] text-lg ${
             isActive
-              ? "bg-[#09080F0C] text-[#09080F] text-opacity-60 font-semibold"
-              : "text-[#FFFFFF] font-extrabold"
+              ? "text-[#FFFFFF] font-extrabold bg-[#9538E2]"
+              : "bg-[#09080F0C] text-[#09080F] text-opacity-60 font-semibold"
           }`
         }
       >
@@ -21,10 +21,10 @@ const Categories = ({ categories }) => {
           to={`/category/${category.category}`}
           key={category.id}
           className={({ isActive }) =>
-            `rounded-[2rem] bg-[#9538E2] py-[22px] text-lg ${
+            `rounded-[2rem] py-[22px] text-lg ${
               isActive
-                ? "bg-[#09080F0C] text-[#09080F] text-opacity-60 font-semibold"
-                : "text-[#FFFFFF] font-extrabold"
+                ? "text-[#FFFFFF] font-extrabold bg-[#9538E2]"
+                : "bg-[#09080F0C] text-[#09080F] text-opacity-60 font-semibold"
             }`
           }
         >

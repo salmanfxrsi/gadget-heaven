@@ -1,1 +1,27 @@
-["Phone", "Mac Book", "Smart Watch", "Laptop", "Accessories"]
+[
+  {
+    "id": 1,
+    "category": "Phone",
+    "slug": "phone"
+  },
+  {
+    "id": 2,
+    "category": "Mac Book",
+    "slug": "mac-book"
+  },
+  {
+    "id": 3,
+    "category": "Smart Watch",
+    "slug": "smart-watch"
+  },
+  {
+    "id": 4,
+    "category": "Laptop",
+    "slug": "laptop"
+  },
+  {
+    "id": 5,
+    "category": "Accessories",
+    "slug": "accessories"
+  }
+]

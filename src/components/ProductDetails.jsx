@@ -13,7 +13,7 @@ const ProductDetails = () => {
     useEffect( () => {
         const singleData = data.find(product => product.product_id == id);
         setProduct(singleData)
-        document.title = `Gadget Heaven ${singleData.product_title}`
+        document.title = `Gadget Heaven - ${singleData.product_title}`
     },[data, id])
 
 

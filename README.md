@@ -5,12 +5,12 @@ Welcome to the **GadgetHaven** e-commerce website. This platform is a gadget-buy
 ---
 
 ## Live Website Link:
-[https://gadget-heaven-salman.netlify.app/](#)  
-*(Insert the URL once the website is live)*
+[Netlify](#)  
+*(https://gadget-heaven-salman.netlify.app/)*
 
 ## Requirement Document Link:
-[file:///D:/Resources%20For%20Practice/B10-A8-gadget-heaven/Batch-10_Assignment-08.pdf](#)  
-*(Insert the link to your requirement document)*
+[](#)  
+*(file:///D:/Resources%20For%20Practice/B10-A8-gadget-heaven/Batch-10_Assignment-08.pdf)*
 
 ---
 

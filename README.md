@@ -9,7 +9,7 @@ Welcome to the **GadgetHaven** e-commerce website. This platform is a gadget-buy
 *(https://gadget-heaven-salman.netlify.app/)*
 
 ## Requirement Document Link:
-[](#)  
+[Requirement PDF](#)  
 *(file:///D:/Resources%20For%20Practice/B10-A8-gadget-heaven/Batch-10_Assignment-08.pdf)*
 
 ---

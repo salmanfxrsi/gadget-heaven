@@ -1,6 +1,6 @@
 import { CiHeart } from "react-icons/ci";
 import { IoCartOutline } from "react-icons/io5";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -63,6 +63,18 @@ const NavBar = () => {
                 Dashboard
               </NavLink>
             </li>
+            <li>
+              <NavLink
+                to={"/review"}
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-[#9538E2] font-bold"
+                    : "font-medium text-[#0B0B0B] text-opacity-70"
+                }
+              >
+                Review
+              </NavLink>
+            </li>
           </ul>
         </div>
         <NavLink to={"/"} className="text-xl font-bold text-[#0B0B0B]">
@@ -107,15 +119,33 @@ const NavBar = () => {
               Dashboard
             </NavLink>
           </li>
+          <li>
+            <NavLink
+              to={"/review"}
+              className={({ isActive }) =>
+                isActive
+                  ? "text-[#9538E2] font-bold"
+                  : "font-medium text-[#0B0B0B] text-opacity-70"
+              }
+            >
+              Review
+            </NavLink>
+          </li>
         </ul>
       </div>
       <div className="navbar-end text-2xl gap-4">
-        <div className="border border-[#0B0B0B] border-opacity-10 rounded-full p-1.5">
+        <Link
+          to={"/dashboard/cart"}
+          className="border border-[#0B0B0B] border-opacity-10 rounded-full p-1.5"
+        >
           <IoCartOutline />
-        </div>
-        <div className="border border-[#0B0B0B] border-opacity-10 rounded-full p-1.5">
+        </Link>
+        <Link
+          to={"/dashboard/wishlist"}
+          className="border border-[#0B0B0B] border-opacity-10 rounded-full p-1.5"
+        >
           <CiHeart />
-        </div>
+        </Link>
       </div>
     </div>
   );

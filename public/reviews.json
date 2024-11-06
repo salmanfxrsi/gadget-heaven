@@ -1,0 +1,56 @@
+[
+  {
+    "product_name": "OnePlus Buds Pro 2",
+    "product_image": "https://i.ibb.co.com/vcQcrL2/oneplus-buds-pro-2-noise-canceling-earbuds-1.webp",
+    "review_date": "2023-10-15",
+    "rating": 4.5,
+    "review": "Great sound quality and long battery life. Highly recommend!",
+    "reviewer_name": "John Doe",
+    "reviewer_image": "https://example.com/images/reviewers/john.jpg"
+  },
+  {
+    "product_name": "Google Pixel 8",
+    "product_image": "https://i.ibb.co.com/cTWx8cn/Pixel-8-Hazel-8910.jpg",
+    "review_date": "2023-09-28",
+    "rating": 4.8,
+    "review": "Amazing camera and smooth performance. Worth every penny!",
+    "reviewer_name": "Jane Smith",
+    "reviewer_image": "https://example.com/images/reviewers/jane.jpg"
+  },
+  {
+    "product_name": "JBL Flip 6 Portable Speaker",
+    "product_image": "https://i.ibb.co.com/FH0DCLV/1720555948lw-A9-I.jpg",
+    "review_date": "2023-08-10",
+    "rating": 4.2,
+    "review": "Good sound quality, but slightly bulky to carry around.",
+    "reviewer_name": "Mike Johnson",
+    "reviewer_image": "https://example.com/images/reviewers/mike.jpg"
+  },
+  {
+    "product_name": "Lenovo Legion 5 Gaming Laptop",
+    "product_image": "https://i.ibb.co.com/0Fw1x3c/71fzx0p-GY5-L.jpg",
+    "review_date": "2023-07-21",
+    "rating": 4.7,
+    "review": "Fast and efficient, with a stunning display. Great for work and play.",
+    "reviewer_name": "Emily Davis",
+    "reviewer_image": "https://example.com/images/reviewers/emily.jpg"
+  },
+  {
+    "product_name": "Apple Watch Series 9",
+    "product_image": "https://i.ibb.co.com/d07wXQz/Apple-Watch-Series-9-3-6716.jpg",
+    "review_date": "2023-06-15",
+    "rating": 4.3,
+    "review": "Handy features, especially for fitness tracking. Battery life could be better.",
+    "reviewer_name": "David Brown",
+    "reviewer_image": "https://example.com/images/reviewers/david.jpg"
+  },
+  {
+    "product_name": "Lenovo Legion 5 Gaming Laptop",
+    "product_image": "https://i.ibb.co.com/0Fw1x3c/71fzx0p-GY5-L.jpg",
+    "review_date": "2023-05-02",
+    "rating": 4.9,
+    "review": "Best gaming experience! High-quality graphics and fast performance.",
+    "reviewer_name": "Sarah Lee",
+    "reviewer_image": "https://example.com/images/reviewers/sarah.jpg"
+  }
+]

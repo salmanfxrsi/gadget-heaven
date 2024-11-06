@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { CiHeart } from "react-icons/ci";
 import { IoCartOutline } from "react-icons/io5";
-import { addCart, getAllProducts } from "../utilities";
+import { addCart, addWishlist } from "../utilities";
 
 const Details = ({ product }) => {
   const {
@@ -18,6 +18,11 @@ const Details = ({ product }) => {
   const handleCart = (product) => {
     addCart(product);
   }
+
+  const handleWishlist = (product) => {
+    addWishlist(product)
+  }
+
 
   return (
     <div className="p-6 bg-[#FFFFFF] w-11/12 lg:w-7/12 mx-auto relative top-[180px] rounded-3xl flex flex-col lg:flex-row items-center">
@@ -42,9 +47,9 @@ const Details = ({ product }) => {
         </div>
         <p className="text-lg text-[#09080F99] mt-4">{description}</p>
         <p className="mt-4 font-bold text-lg text-[#09080F]">Specification</p>
-        {/* <ul>{specification.map( (specific,index) => <li key={index}>{specific.value}</li> )}</ul> */}
+        <ol className="list-decimal list-inside mt-3 mb-4">{specification?.map( (specific,index) => <li key={index}>{specific.value}</li> )}</ol>
         <p>Rating: {rating}</p>
-        <div className="flex gap-3">
+        <div className="flex items-center gap-3 mt-4">
           <button
             onClick={() => handleCart(product)}
             className="bg-[#9538E2] rounded-[2rem] px-6 py-2 flex items-center text-[#FFFFFF] font-bold text-lg gap-2"
@@ -52,8 +57,8 @@ const Details = ({ product }) => {
             <p>Add To Cart</p>
             <IoCartOutline className="text-2xl" />
           </button>
-          <button className="border border-[#0B0B0B] border-opacity-10 rounded-full p-1.5">
-            <CiHeart />
+          <button onClick={ () => handleWishlist(product) } className="border border-[#0B0B0B] border-opacity-10 rounded-full p-2">
+            <CiHeart className="text-2xl" />
           </button>
         </div>
       </div>

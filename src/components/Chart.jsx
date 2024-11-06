@@ -9,6 +9,7 @@ import {
   CartesianGrid,
   Legend,
   ResponsiveContainer,
+  Scatter,
 } from "recharts";
 
 import PropTypes from "prop-types";
@@ -25,6 +26,7 @@ const Chart = ({ allProducts }) => (
           <Tooltip />
           <Legend />
           <Bar dataKey="price" fill="#9538E2" />
+          <Scatter dataKey="rating" fill="#9538E2" />
           <AreaChart>
             <Area
               type="monotone"

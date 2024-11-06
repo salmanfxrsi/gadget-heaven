@@ -7,6 +7,7 @@ import Products from "../components/Products";
 import ProductDetails from "../components/ProductDetails";
 import Cart from "../components/Cart";
 import Wishlist from "../components/Wishlist";
+import Review from "../pages/Review";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
         element: <Dashboard />,
         children: [
           {
+            path: "/dashboard",
+            element: <Cart />,
+          },
+          {
             path: "/dashboard/cart",
             element: <Cart />,
           },
@@ -48,6 +53,11 @@ const router = createBrowserRouter([
             element: <Wishlist />,
           }
         ]
+      },
+      {
+        path: "/review",
+        loader: () => fetch("/reviews.json"),
+        element: <Review />,
       },
       {
         path: "/product/:id",

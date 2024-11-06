@@ -5,11 +5,8 @@ const getAllProducts = () => {
   const all = localStorage.getItem("cart");
   if(all){
     const cart = JSON.parse(all);
-    console.log(cart);
-    
     return cart
   }else{
-    console.log([])
     return[]
   }
 };
@@ -26,4 +23,32 @@ const addCart = (product) => {
 
 // remove a product to local storage
 
-export { addCart, getAllProducts };
+
+
+
+// get wishlist products from local storage
+const getWishlistProducts = () => {
+    const all = localStorage.getItem("wishlist");
+    if(all){
+      const wishlist = JSON.parse(all);
+      return wishlist
+    }else{
+      return[]
+    }
+  };
+
+
+// add a product to local storage
+const addWishlist = (product) => {
+    const wishlist = getWishlistProducts();
+    const isExist = wishlist.find(item => item.product_id == product.product_id)
+    if(isExist) return toast.error("Already Added In Wishlist")
+    wishlist.push(product);
+    localStorage.setItem("wishlist", JSON.stringify(wishlist));
+    toast.success("Successfully Added In Wishlist")
+  };
+
+
+export { addCart, getAllProducts, addWishlist,getWishlistProducts };
+
+

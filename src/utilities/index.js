@@ -21,9 +21,6 @@ const addCart = (product) => {
   toast.success("Successfully Added In Cart")
 };
 
-// remove a product to local storage
-
-
 
 
 // get wishlist products from local storage

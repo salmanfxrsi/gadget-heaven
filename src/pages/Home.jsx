@@ -13,6 +13,7 @@ const Home = () => {
   return (
     <div>
       <HomeDisplay />
+      <p className="text-[#0B0B0B] font-bold text-[2.5rem] text-center">Explore Cutting-Edge Gadgets</p>
       <div className="w-11/12 lg:container mx-auto flex flex-col lg:grid grid-cols-4 gap-6 py-[100px]">
         {/* Categories Section */}
         <div className="col-span-1">

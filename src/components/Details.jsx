@@ -1,8 +1,9 @@
 import PropTypes from "prop-types";
 import { CiHeart } from "react-icons/ci";
 import { IoCartOutline } from "react-icons/io5";
-import { addCart, addWishlist } from "../utilities";
+import { addCart, addWishlist, getWishlistProducts } from "../utilities";
 import { Rate } from "antd";
+import { useEffect, useState } from "react";
 
 const Details = ({ product }) => {
   const {
@@ -15,6 +16,16 @@ const Details = ({ product }) => {
     rating,
   } = product;
 
+  const [isInWishlist, setIsInWishlist] = useState(false);
+
+  useEffect(() => {
+    const wishlist = getWishlistProducts();
+    const exists = wishlist.some(
+      (item) => item.product_id === product.product_id
+    );
+    setIsInWishlist(exists);
+  }, [product.product_id]);
+
   //   handle add to cart button click
   const handleCart = (product) => {
     addCart(product);
@@ -22,6 +33,7 @@ const Details = ({ product }) => {
 
   const handleWishlist = (product) => {
     addWishlist(product);
+    setIsInWishlist(true);
   };
 
   return (
@@ -54,8 +66,10 @@ const Details = ({ product }) => {
         </ol>
         <p className="text-lg font-bold mb-3">Rating:</p>
         <div className="flex gap-5 items-center">
-        <Rate defaultValue={0} value={rating} allowHalf/>
-        <div className="px-3 py-2 bg-[#09080F0D] w-[60px] rounded-[2rem] text-center font-medium">{rating}</div>
+          <Rate defaultValue={0} value={rating} allowHalf />
+          <div className="px-3 py-2 bg-[#09080F0D] w-[60px] rounded-[2rem] text-center font-medium">
+            {rating}
+          </div>
         </div>
         <div className="flex items-center gap-3 mt-4">
           <button
@@ -67,7 +81,9 @@ const Details = ({ product }) => {
           </button>
           <button
             onClick={() => handleWishlist(product)}
-            className="border border-[#0B0B0B] border-opacity-10 rounded-full p-2"
+            className={`border border-[#0B0B0B] border-opacity-10 rounded-full p-2 ${
+              isInWishlist ? "bg-slate-400" : ""
+            }`}
           >
             <CiHeart className="text-2xl" />
           </button>

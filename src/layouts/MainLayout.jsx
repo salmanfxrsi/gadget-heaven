@@ -11,10 +11,8 @@ const MainLayout = () => {
     <div>
       <Toaster />
       {/* Navbar */}
-      {location.pathname === "/" || location.pathname.startsWith("/category/") ?<div style={{
-          backgroundColor: "rgba(9, 8, 15, 0.05)",
-          padding: "40px"
-        }}> <HomeNavBar /> </div>: <NavBar />}
+      {location.pathname === "/" || location.pathname.startsWith("/category/") ?<div className="lg:bg-[rgba(9,8,15,0.05)] lg:p-10"
+        > <HomeNavBar /> </div>: <NavBar />}
       {/* Outlet */}
       <div
         style={{

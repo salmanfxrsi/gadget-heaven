@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const HomeNavBar = () => {
   return (
-    <div className="bg-[#9538E2] w-11/12 mx-auto rounded-[32px] text-center">
+    <div className="bg-[#9538E2] lg:w-11/12 mx-auto lg:rounded-[32px] text-center">
       {/* Navbar Started */}
       <div className="navbar container mx-auto py-8">
         <div className="navbar-start">
@@ -27,7 +27,7 @@ const HomeNavBar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              className="menu-sm dropdown-content bg-black rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
               <li>
                 <NavLink
